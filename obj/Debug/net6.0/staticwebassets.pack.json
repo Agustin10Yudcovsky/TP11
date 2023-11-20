@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "Z:\\TPBocaWeb\\TPBase\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TPBase.bundle.scp.css",
+      "Id": "C:\\Users\\juanr\\Downloads\\TP11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TPBase.bundle.scp.css",
       "PackagePath": "staticwebassets\\TPBase.bundle.scp.css"
     },
     {
-      "Id": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\BDBocaWeb.sql",
+      "Id": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\BDBocaWeb.sql",
       "PackagePath": "staticwebassets\\BDBocaWeb.sql"
     },
     {
-      "Id": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {

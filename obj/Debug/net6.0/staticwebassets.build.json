@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jNoGVJ1iFZmGKX0B3PqDyHO7OGH1Bwqff4HSV4l8EHI=",
+  "Hash": "fDenUZa34j/erzEdLm0JJKvxveu08v1AV1HHkFhK0X4=",
   "Source": "TPBase",
   "BasePath": "_content/TPBase",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TPBase\\wwwroot",
       "Source": "TPBase",
-      "ContentRoot": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\",
       "BasePath": "_content/TPBase",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\TPBocaWeb\\TPBase\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TPBase.styles.css",
+      "Identity": "C:\\Users\\juanr\\Downloads\\TP11\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TPBase.styles.css",
       "SourceId": "TPBase",
       "SourceType": "Computed",
-      "ContentRoot": "Z:\\TPBocaWeb\\TPBase\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\juanr\\Downloads\\TP11\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/TPBase",
       "RelativePath": "TPBase.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Z:\\TPBocaWeb\\TPBase\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TPBase.styles.css"
+      "OriginalItemSpec": "C:\\Users\\juanr\\Downloads\\TP11\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TPBase.styles.css"
     },
     {
-      "Identity": "Z:\\TPBocaWeb\\TPBase\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TPBase.bundle.scp.css",
+      "Identity": "C:\\Users\\juanr\\Downloads\\TP11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TPBase.bundle.scp.css",
       "SourceId": "TPBase",
       "SourceType": "Computed",
-      "ContentRoot": "Z:\\TPBocaWeb\\TPBase\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\juanr\\Downloads\\TP11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/TPBase",
       "RelativePath": "TPBase.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Z:\\TPBocaWeb\\TPBase\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TPBase.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\juanr\\Downloads\\TP11\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TPBase.bundle.scp.css"
     },
     {
-      "Identity": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\BDBocaWeb.sql",
+      "Identity": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\BDBocaWeb.sql",
       "SourceId": "TPBase",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\",
       "BasePath": "_content/TPBase",
       "RelativePath": "BDBocaWeb.sql",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\BDBocaWeb.sql"
     },
     {
-      "Identity": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\css\\site.css",
       "SourceId": "TPBase",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\",
       "BasePath": "_content/TPBase",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\favicon.ico",
       "SourceId": "TPBase",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\",
       "BasePath": "_content/TPBase",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\js\\site.js",
       "SourceId": "TPBase",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\TPBocaWeb\\TPBase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\juanr\\Downloads\\TP11\\wwwroot\\",
       "BasePath": "_content/TPBase",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
