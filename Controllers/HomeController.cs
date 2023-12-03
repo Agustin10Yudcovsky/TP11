@@ -14,4 +14,14 @@ public class HomeController : Controller
         ViewBag.partidos = BD.ObtenerPartidos();
         return View("Partidos");
     }
+
+    public IActionResult Entradas(){
+    ViewBag.ListaEntradas = BD.ObtenerEntradas();
+    return View("Entradas");
+    }
+
+    public IActionResult Noticias(){
+        ViewBag.noticias = BD.ObtenerNoticias();
+        return View("Noticias");
+    }
 }
