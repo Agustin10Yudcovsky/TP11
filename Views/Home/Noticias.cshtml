@@ -1,11 +1,10 @@
-﻿
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Próximos Partidos de Boca Juniors</title>
-    
+
 </head>
 <body>
 
@@ -13,17 +12,15 @@
         <a href='@Url.Action("Index", "Home")'>
             <img src="/images/boca.jpg" alt="Boca Juniors" class="boca-image">
         </a>
-        <h1>Bienvenido a la página del Club Atlético Boca Juniors</h1>
+        <h1>Noticias del Club</h1>
         <div class="nav-links">
             <a href='@Url.Action("Index", "Home")'>Inicio</a>
             <a href='@Url.Action("Partidos", "Home")'>Partidos</a>
             <a href='@Url.Action("Entradas", "Home")'>Entradas</a>
             <a href='@Url.Action("Noticias", "Home")'>Noticias</a>
         </div>
-    <div class = "boca_plantel">
-        <h1>El Plantel 2023</h1>
-        <img src = "/images/boca_plantel.jpg" alt = "Boca Plantel">
     </div>
+
     <script>
         var body = document.querySelector('body');
         var colors = ['#FFD700', '#000033']; 
@@ -34,7 +31,6 @@
             index = (index + 1) % colors.length;
             setTimeout(changeColor, 5000); 
         }
-
         changeColor();
     </script>
 

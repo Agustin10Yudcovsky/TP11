@@ -76,3 +76,14 @@ C:\Users\juanr\Downloads\TP11\obj\Debug\net6.0\refint\TPBase.dll
 C:\Users\juanr\Downloads\TP11\obj\Debug\net6.0\TPBase.pdb
 C:\Users\juanr\Downloads\TP11\obj\Debug\net6.0\TPBase.genruntimeconfig.cache
 C:\Users\juanr\Downloads\TP11\obj\Debug\net6.0\ref\TPBase.dll
+C:\Users\Usuario\TP11\obj\Debug\net6.0\TPBase.csproj.AssemblyReference.cache
+C:\Users\Usuario\TP11\obj\Debug\net6.0\TPBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\TP11\obj\Debug\net6.0\TPBase.AssemblyInfoInputs.cache
+C:\Users\Usuario\TP11\obj\Debug\net6.0\TPBase.AssemblyInfo.cs
+C:\Users\Usuario\TP11\obj\Debug\net6.0\TPBase.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\TP11\obj\Debug\net6.0\TPBase.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\TP11\obj\Debug\net6.0\TPBase.RazorAssemblyInfo.cache
+C:\Users\Usuario\TP11\obj\Debug\net6.0\TPBase.RazorAssemblyInfo.cs
+C:\Users\Usuario\TP11\obj\Debug\net6.0\TPBase.dll
+C:\Users\Usuario\TP11\obj\Debug\net6.0\refint\TPBase.dll
+C:\Users\Usuario\TP11\obj\Debug\net6.0\TPBase.pdb

@@ -1,5 +1,76 @@
 @{
-    for(int i = 0; i<ViewBag.partidos.Count; i++){
-        <p>boca vs @ViewBag.partidos[i].Rival</p>
-    }
+    ViewData["Title"] = "Próximos Partidos";
 }
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Próximos Partidos de Boca Juniors</title>
+   
+</head>
+<body>
+
+    <div class="header">
+        <a href='@Url.Action("Index", "Home")'>
+            <img src="/images/boca.jpg" alt="Boca Juniors" class="boca-image">
+        </a>
+        <h1>Próximos Partidos</h1>
+        <div class="nav-links">
+            <a href='@Url.Action("Index", "Home")'>Inicio</a>
+            <a href='@Url.Action("Partidos", "Home")'>Partidos</a>
+            <a href='@Url.Action("Entradas", "Home")'>Entradas</a>
+            <a href='@Url.Action("Noticias", "Home")'>Noticias</a>
+        </div>
+    </div>
+
+    <div class="partidos-container">
+        <ul class="partidos-list">
+            <li>
+                <h3>Boca vs Lanús</h3>
+                <div class="partido-info">
+                    <p class="fecha"><strong>Fecha:</strong> 2023-02-01</p>
+                    <img src="/images/lanu.jpg" alt="Lanús">
+                </div>
+            </li>
+           <li>
+                <h3>Boca vs Tigre</h3>
+                <div class="partido-info">
+                    <p class="fecha"><strong>Fecha:</strong> 2023-02-21</p>
+                    <img src="/images/tigre.jpg" alt="Tigre">
+                </div>
+            </li>
+            <li>
+                <h3>Boca vs Independiente</h3>
+                <div class="partido-info">
+                    <p class="fecha"><strong>Fecha:</strong> 2023-03-01</p>
+                    <img src="/images/independiente.jpg" alt="independiente">
+                </div>
+            </li>
+            <li>
+                <h3>Boca vs Talleres</h3>
+                <div class="partido-info">
+                    <p class="fecha"><strong>Fecha:</strong> 2023-03-11</p>
+                    <img src="/images/taiere.jpg" alt="Talleres">
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        var body = document.querySelector('body');
+        var colors = ['#FFD700', '#000033']; 
+        var index = 0;
+
+        function changeColor() {
+            body.style.backgroundColor = colors[index];
+            index = (index + 1) % colors.length;
+            setTimeout(changeColor, 5000);
+        }
+
+        changeColor();
+    </script>
+
+</body>
+</html>
