@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juanr\\Downloads\\TP11\\TPBase.csproj": {}
+    "C:\\Users\\Usuario\\TP11\\TPBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juanr\\Downloads\\TP11\\TPBase.csproj": {
+    "C:\\Users\\Usuario\\TP11\\TPBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juanr\\Downloads\\TP11\\TPBase.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\TP11\\TPBase.csproj",
         "projectName": "TPBase",
-        "projectPath": "C:\\Users\\juanr\\Downloads\\TP11\\TPBase.csproj",
-        "packagesPath": "C:\\Users\\juanr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juanr\\Downloads\\TP11\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\TP11\\TPBase.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\TP11\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\juanr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
