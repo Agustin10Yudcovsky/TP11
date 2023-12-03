@@ -140,3 +140,187 @@ a.socialIcon:hover,
 p{
   color: aliceblue;
 }
+
+ body {
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            transition: background-color 1s ease;
+            background-color: #333;
+        }
+
+        .header {
+            padding: 20px;
+            position: relative;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .nav-links a {
+            color: #FFD700;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-links a:hover {
+            color: #87CEEB; 
+        }
+
+        .entradas-container {
+            margin-top: 50px;
+        }
+
+        .entradas-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .entradas-list li {
+            border: 3px solid #0000FF; 
+            margin-bottom: 20px;
+            padding: 30px;
+            background-color: #333;
+            box-shadow: 0 8px 20px rgba(0, 0, 255, 0.5); 
+            transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+            border-radius: 15px;
+        }
+
+        .entradas-list li:hover {
+            transform: scale(1.08);
+            background-color: #87CEEB; 
+        }
+
+        .entradas-list li h3 {
+            color: #fff; 
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .entradas-list li p {
+            color: #aaa;
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .entradas-list li .fecha {
+            color: #FFD700;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .entrada-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+/*2*/
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: background-color 1s ease;
+  background-color: #333;
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.header {
+  padding: 20px;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav-links a {
+  color: #FFD700;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #87CEEB; 
+}
+
+.partidos-container {
+  margin-top: 50px;
+}
+
+.partidos-list li {
+  border: 3px solid #0000FF;
+  margin-bottom: 20px;
+  padding: 20px; 
+  background-color: #333;
+  box-shadow: 0 8px 20px rgba(0, 0, 255, 0.5);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.partidos-list li:hover {
+  transform: scale(1.08);
+  background-color: #87CEEB; 
+}
+
+.partidos-list li h3 {
+  color: #fff;
+  font-size: 24px; 
+  margin-bottom: 10px; 
+}
+
+.partidos-list li p {
+  color: #aaa;
+  margin: 0;
+  font-size: 14px; 
+}
+
+.partidos-list li .fecha {
+  color: #FFD700;
+  font-weight: bold;
+  font-size: 16px; 
+  margin-top: 8px; 
+}
+
+.partido-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; 
+}
+
+.partido-info img {
+  max-width: 80px; 
+  max-height: 80px; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px; 
+  border: 3px solid #0000FF;
+}
+.header img{
+  float: left;
+  width: 10%;
+}
+.boca_plantel img{
+  width: 100%;
+}
