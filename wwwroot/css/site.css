@@ -321,8 +321,22 @@ body {
   float: left;
   width: 10%;
 }
-.boca_plantel img{
+.boca_plantel img {
   width: 100%;
+  margin-bottom: 5%;
+}
+
+.Desarrolladores {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.Desarrolladores img {
+  width: 200px;
+  height: auto;
 }
 h1{
   margin-top: 3rem !important;
@@ -379,3 +393,4 @@ body {
         .underlineHover:hover {
             color: #007bff;
         }
+        
