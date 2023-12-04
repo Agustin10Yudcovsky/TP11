@@ -1,42 +1,33 @@
-﻿
-<!DOCTYPE html>
-<html lang="es">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Próximos Partidos de Boca Juniors</title>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
-<body>
+<body style="background: linear-gradient(to bottom, #d1ab52, #07358f);">
 
-    <div class="header">
-        <a href='@Url.Action("Index", "Home")'>
-            <img src="/images/boca.jpg" alt="Boca Juniors" class="boca-image">
-        </a>
-        <h1>Bienvenido a la página del Club Atlético Boca Juniors</h1>
-        <div class="nav-links">
-            <a href='@Url.Action("Index", "Home")'>Inicio</a>
-            <a href='@Url.Action("Partidos", "Home")'>Partidos</a>
-            <a href='@Url.Action("Entradas", "Home")'>Entradas</a>
-            <a href='@Url.Action("Noticias", "Home")'>Noticias</a>
+<div class="wrapper d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+    <div id="formContent" style="background-color: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        
+        <div class="fadeIn first">
+            <img src="/images/user.jpg" id="icon" alt="Foto Usuario" class="img-fluid" />
         </div>
-    <div class = "boca_plantel">
-        <h1>El Plantel 2023</h1>
-        <img src = "/images/boca_plantel.jpg" alt = "Boca Plantel">
+
+        <form action="@Url.Action("Inicio")" method="post" class="mt-4">
+            <div class="form-group">
+                <input type="text" id="login" class="fadeIn second form-control" name="login" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" class="fadeIn third form-control" name="login" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="submit" class="fadeIn fourth btn btn-primary btn-block" value="Log In">
+            </div>
+        </form>
     </div>
-    <script>
-        var body = document.querySelector('body');
-        var colors = ['#FFD700', '#000033']; 
-        var index = 0;
-
-        function changeColor() {
-            body.style.backgroundColor = colors[index];
-            index = (index + 1) % colors.length;
-            setTimeout(changeColor, 5000); 
-        }
-
-        changeColor();
-    </script>
+</div>
 
 </body>
 </html>

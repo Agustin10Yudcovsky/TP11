@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Entradas</title>
+</head>
+<body>
+
+    <div class="header">
+        <a href='@Url.Action("Inicio", "Home")'>
+            <img src="/images/boca.jpg" alt="Boca Juniors" class="boca-image">
+        </a>
+        <h1>Mis Entradas</h1>
+        <div class="nav-links">
+            <a href='@Url.Action("Inicio", "Home")'>Inicio</a>
+            <a href='@Url.Action("Partidos", "Home")'>Partidos</a>
+            <a href='@Url.Action("Entradas", "Home")'>Entradas</a>
+            <a href='@Url.Action("Noticias", "Home")'>Noticias</a>
+            <a href='@Url.Action("MisEntradas", "Home")'>Mis Entradas</a>
+        </div>
+    </div>
+
+    
+    <script>
+        var body = document.querySelector('body');
+        var colors = ['#FFD700', '#000033']; 
+        var index = 0;
+
+        function changeColor() {
+            body.style.backgroundColor = colors[index];
+            index = (index + 1) % colors.length;
+            setTimeout(changeColor, 5000); 
+        }
+
+        changeColor();
+    </script>
+
+</body>
+</html>

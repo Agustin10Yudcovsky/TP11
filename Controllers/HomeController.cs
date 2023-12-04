@@ -4,10 +4,16 @@ namespace TP11.Controllers;
 
 public class HomeController : Controller
 {
+    public IActionResult Inicio()
+    {
+        return View();
+    }
+
     public IActionResult Index()
     {
         return View();
     }
+
 
     public IActionResult Partidos()
     {
@@ -23,5 +29,14 @@ public class HomeController : Controller
     public IActionResult Noticias(){
         ViewBag.noticias = BD.ObtenerNoticias();
         return View("Noticias");
+    }
+
+    public IActionResult MisEntradas(){
+        return View();
+    }
+
+    public  IActionResult ComprarEntradas(int entradaid){
+        BD.ActualizarEntrada(entradaid);
+        return RedirectToAction("Inicio");
     }
 }

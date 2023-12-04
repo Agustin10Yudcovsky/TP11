@@ -3,36 +3,92 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Próximos Partidos de Boca Juniors</title>
+    <title>Noticias del club</title>
+    <style>
+        .nav-links a {
+            color: #d1ab52;
+            margin-right: 10px;
+            text-decoration: none;
+        }
 
+        .article-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .article {
+            width: 30%;
+            margin-bottom: 20px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .article:hover {
+            transform: scale(1.05);
+        }
+
+        .article img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .article:hover img {
+            transform: scale(1.2);
+        }
+
+        .article-content {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .article p {
+            color: #07358f;
+        }
+    </style>
 </head>
 <body>
 
     <div class="header">
-        <a href='@Url.Action("Index", "Home")'>
+        <a href='@Url.Action("Inicio", "Home")'>
             <img src="/images/boca.jpg" alt="Boca Juniors" class="boca-image">
         </a>
         <h1>Noticias del Club</h1>
         <div class="nav-links">
-            <a href='@Url.Action("Index", "Home")'>Inicio</a>
+            <a href='@Url.Action("Inicio", "Home")'>Inicio</a>
             <a href='@Url.Action("Partidos", "Home")'>Partidos</a>
             <a href='@Url.Action("Entradas", "Home")'>Entradas</a>
             <a href='@Url.Action("Noticias", "Home")'>Noticias</a>
+            <a href='@Url.Action("MisEntradas", "Home")'>Mis Entradas</a>
         </div>
     </div>
 
-    <script>
-        var body = document.querySelector('body');
-        var colors = ['#FFD700', '#000033']; 
-        var index = 0;
-
-        function changeColor() {
-            body.style.backgroundColor = colors[index];
-            index = (index + 1) % colors.length;
-            setTimeout(changeColor, 5000); 
-        }
-        changeColor();
-    </script>
+    <div class="article-container">
+        <div class="article">
+            <div class="article-content">
+                <img src="/images/diego.jpg" alt="Diego">
+                <p>¡Feliz Cumpleaños Diego! Un día como hoy pero hace 63 años nacía la leyenda del fútbol mundial. El ausente más presente 1960-∞</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article-content">
+                <img src="/images/predio.jpg" alt="Predio">
+                <p>¡Seguimos enfocados! El plantel practica con normalidad desde #BocaPredio para seguir con nuestro camino.</p>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article-content">
+                <img src="/images/mc.jpg" alt="mejor club">
+                <p>Tenemos el honor de informarles a todos los hinchas Xeneizes que Boca ha sido nominado como mejor club de fútbol del año en los premios Globe Soccer.</p>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
+

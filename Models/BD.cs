@@ -2,7 +2,7 @@ using System.Data.SqlClient;
 using Dapper;
 
 public static class BD{
-    private static string ConnectionString {get; set;} = @"Server=localhost;DataBase=BDBoca;Trusted_Connection=True;";
+    private static string ConnectionString {get; set;} = @"Server=DESKTOP-GD7LDGF\SQLEXPRESS01;DataBase=BDBoca;Trusted_Connection=True;";
 
     public static List<Partido> ObtenerPartidos(){
         List<Partido> user = new List<Partido>();
@@ -16,7 +16,7 @@ public static class BD{
     public static List<Entradas> ObtenerEntradas(){
         List<Entradas> user = new List<Entradas>();
         using (SqlConnection db = new SqlConnection(ConnectionString)){
-            string sql = "SELECT * FROM Entradas";
+            string sql = "SELECT * FROM Entradas WHERE Disponible ='True'";
             user = db.Query<Entradas>(sql).ToList();
         }
         return user;
@@ -29,5 +29,13 @@ public static class BD{
             user = db.Query<Noticias>(sql).ToList();
         }
         return user;
+    }
+
+    public static void ActualizarEntrada(int entradaid){
+        using (SqlConnection db = new SqlConnection(ConnectionString)){
+            string sql = "UPDATE Entradas SET Disponible = 'false' WHERE EntradaID = @pentradaid;";
+            db.Execute(sql, new{pentradaid = entradaid});
+        }
+        
     }
 }

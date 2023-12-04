@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lxfKILfLxKC1n9uOf/AqLLwREOn0620VmxLdEaCh3jc=",
+  "Hash": "cGU6sF8XdMIs501UqHYb6kcEVigmp1Xys0BOd5uTCGw=",
   "Source": "TPBase",
   "BasePath": "_content/TPBase",
   "Mode": "Default",
@@ -153,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\images\\brey.jpg"
     },
     {
+      "Identity": "C:\\Users\\Usuario\\TP11\\wwwroot\\images\\diego.jpg",
+      "SourceId": "TPBase",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\TP11\\wwwroot\\",
+      "BasePath": "_content/TPBase",
+      "RelativePath": "images/diego.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\diego.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Usuario\\TP11\\wwwroot\\images\\garcia.jpg",
       "SourceId": "TPBase",
       "SourceType": "Discovered",
@@ -204,6 +221,40 @@
       "OriginalItemSpec": "wwwroot\\images\\lanu.jpg"
     },
     {
+      "Identity": "C:\\Users\\Usuario\\TP11\\wwwroot\\images\\mc.JPG",
+      "SourceId": "TPBase",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\TP11\\wwwroot\\",
+      "BasePath": "_content/TPBase",
+      "RelativePath": "images/mc.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mc.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\TP11\\wwwroot\\images\\predio.JPG",
+      "SourceId": "TPBase",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\TP11\\wwwroot\\",
+      "BasePath": "_content/TPBase",
+      "RelativePath": "images/predio.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\predio.JPG"
+    },
+    {
       "Identity": "C:\\Users\\Usuario\\TP11\\wwwroot\\images\\romero.jpg",
       "SourceId": "TPBase",
       "SourceType": "Discovered",
@@ -253,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\tigre.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\TP11\\wwwroot\\images\\user.jpg",
+      "SourceId": "TPBase",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\TP11\\wwwroot\\",
+      "BasePath": "_content/TPBase",
+      "RelativePath": "images/user.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\user.jpg"
     },
     {
       "Identity": "C:\\Users\\Usuario\\TP11\\wwwroot\\js\\site.js",
