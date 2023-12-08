@@ -39,4 +39,10 @@ public class HomeController : Controller
         BD.ActualizarEntrada(entradaid);
         return RedirectToAction("Inicio");
     }
+
+    public IActionResult EntradasPartido(int idpartido){
+        ViewBag.ListaEntradas = BD.ObtenerEntradasId(idpartido);
+        return View("Entradas");
+    }
+
 }

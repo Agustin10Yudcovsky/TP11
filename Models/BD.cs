@@ -36,6 +36,23 @@ public static class BD{
             string sql = "UPDATE Entradas SET Disponible = 'false' WHERE EntradaID = @pentradaid;";
             db.Execute(sql, new{pentradaid = entradaid});
         }
-        
+    
     }
+    public static List<Entradas> ObtenerEntradasPorPartido(int PartidoID){
+        List<Entradas> user = new List<Entradas>();
+        using (SqlConnection db = new SqlConnection(ConnectionString)){
+            string sql = "SELECT * FROM Entradas WHERE Disponible ='True' and PartidoID=@PartidoIDp";
+            user = db.Query<Entradas>(sql, new{PartidoIDp = PartidoID } ).ToList();
+        }
+        return user;
+    }
+    public static List<Entradas> ObtenerEntradasId(int idpartido){
+        List<Entradas> user = new List<Entradas>();
+        using (SqlConnection db = new SqlConnection(ConnectionString)){
+            string sql = "SELECT * FROM Entradas WHERE Disponible ='True' AND PartidoID = @pidpartido";
+            user = db.Query<Entradas>(sql, new{pidpartido = idpartido}).ToList();
+        }
+        return user;
+    }
+ 
 }
