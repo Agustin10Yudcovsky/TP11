@@ -54,5 +54,14 @@ public static class BD{
         }
         return user;
     }
- 
+
+    public static string ObetenerEstXPar(int IDpartido){
+        string user;
+        using(SqlConnection db = new SqlConnection(ConnectionString)){
+            string sql = "SELECT Estadio FROM Partidos WHERE PartidoID = @idpartido";
+            user = db.QueryFirstOrDefault<string>(sql, new{idpartido = IDpartido});
+        }
+        return user;
+    }
+
 }

@@ -45,4 +45,8 @@ public class HomeController : Controller
         return View("Entradas");
     }
 
+     public string EstadioPorPartido(int Idpartido){
+       return  BD.ObetenerEstXPar(Idpartido);
+    }
+
 }

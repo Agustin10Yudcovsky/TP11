@@ -1,14 +1,16 @@
-﻿function ObtenerEntradasPorPartido2(idPartido) {
+﻿function ObtenerEstadioPorPartido(idpartido) {
+    console.log("a");
     $.ajax({
         type: 'POST',
         dataType: 'JSON',
-        url: '/Home/Partidos',
-        data: { PartidoId: idPartido },
+        url: '/Home/EstadioPorPartido',
+        data:{Idpartido:idpartido},
         success: function (response) {
-            $("#IdPartido").html("ID del Partido: " + idPartido);
+            console.log("a");
+            $("#Estadio").html("Nombre del Estadio: " + response.estadio);
         },
         error: function (error) {
-            console.error("Error en la solicitud AJAX", error);
+            console.error("Error", error);
         }
     });
 }
